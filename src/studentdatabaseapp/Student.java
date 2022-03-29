@@ -50,7 +50,7 @@ public class Student {
 		Scanner in = new Scanner(System.in);
 		
 		while (!course.equals("q")) {
-			System.out.println("Enter a course to enroll (\"q\" to quit when finished enrolling)");
+			System.out.print("Enter a course to enroll (\"q\" to quit when finished enrolling)");
 			course = in.nextLine();
 			
 			if (course.equals("q")) break;
