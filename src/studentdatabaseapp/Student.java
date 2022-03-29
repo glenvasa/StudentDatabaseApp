@@ -22,7 +22,8 @@ public class Student {
 		System.out.print("Enter student last name: ");
 		this.lastName = in.nextLine();
 		
-		System.out.print("1 - Freshman\n2 - Sophmore\n3 - Junior\n4 - Senior ");
+		System.out.print("1 - Freshman\n2 - Sophmore\n3 - Junior\n4 - Senior\n");
+		System.out.print("Enter student class level: ");
 		this.gradeYear = in.nextInt();
 		
 		setStudentID();
@@ -50,7 +51,7 @@ public class Student {
 		Scanner in = new Scanner(System.in);
 		
 		while (!course.equals("q")) {
-			System.out.print("Enter a course to enroll (\"q\" to quit when finished enrolling)");
+			System.out.print("Enter a course to enroll (\"q\" to quit when finished enrolling): ");
 			course = in.nextLine();
 			
 			if (course.equals("q")) break;
